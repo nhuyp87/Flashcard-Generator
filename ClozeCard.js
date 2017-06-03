@@ -15,12 +15,9 @@ class ClozeCard {
                 fullText = fullText.substring(0, i) + "..." + fullText.substring(i + cloze.length, fullText.length);
             }
         }
-        console.log(fullText);
         return fullText;
     };
-
 }
-
 
 var firstPresident = new ClozeCard ("George Washington is the first president of the US.", "George Washington");
 console.log(firstPresident); 
