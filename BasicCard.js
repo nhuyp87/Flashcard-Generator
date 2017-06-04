@@ -17,7 +17,12 @@ class BasicCard {
     }
 }
 
-var firstPresident = new BasicCard ("Who was the first president of the United States?", "George Washington");
 
-firstPresident.displayBack ();
-firstPresident.displayFront();
+// Testing Basic Card using question from HW instructions. 
+// var firstPresident = new BasicCard ("Who was the first president of the United States?", "George Washington");
+
+// firstPresident.displayBack ();
+// firstPresident.displayFront();
+
+module.exports = BasicCard;
+
